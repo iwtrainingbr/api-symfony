@@ -1,0 +1,7 @@
+teste_listar:
+  path: /admin/listar
+  controller: App\Controller\TesteController::listar
+
+teste_add:
+  path: /admin/cadastro
+  controller: App\Controller\TesteController::cadastrar

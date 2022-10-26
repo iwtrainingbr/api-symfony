@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Novo Produto
+{% endblock %}
+
+{% block body %}
+    <h1>Novo Produto</h1>
+
+    <hr>
+
+    <section class="card card-body">
+        <form action="" method="post">
+            <label>Nome</label>
+            <input name="name" class="form-control mb-3"/>
+
+            <label>Preço</label>
+            <input name="price" class="form-control mb-3"/>
+
+            <label>Descrição</label>
+            <input name="description" class="form-control mb-3"/>
+
+            <button class="btn btn-primary">PRONTO</button>
+        </form>
+    </section>
+{% endblock %}

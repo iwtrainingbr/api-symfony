@@ -1,0 +1,24 @@
+api_product_get_list:
+  path: /api/clientes
+  controller: App\Controller\Api\ClienteApiController::getList
+  methods: [GET]
+
+api_product_get_one:
+  path: /api/clientes/{id}
+  controller: App\Controller\Api\ClienteApiController::getOne
+  methods: [GET]
+
+api_product_post:
+  path: /api/clientes
+  controller: App\Controller\Api\ClienteApiController::create
+  methods: [POST]
+
+api_product_patch:
+  path: /api/clientes/{id}
+  controller: App\Controller\Api\ClienteApiController::update
+  methods: [PATCH]
+
+api_product_delete:
+  path: /api/clientes/{id}
+  controller: App\Controller\Api\ClienteApiController::remove
+  methods: [DELETE]

@@ -1,0 +1,15 @@
+product_add:
+  path: /produtos/novo
+  controller: App\Controller\ProductController::add
+
+product_list:
+  path: /produtos
+  controller: App\Controller\ProductController::list
+
+product_edit:
+  path: /produtos/editar
+  controller: App\Controller\ProductController::edit
+
+product_remove:
+  path: /produtos/{id}/excluir
+  controller: App\Controller\ProductController::remove
